@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ammarmalik17
-- 👀 I’m interested in electrical engineering, embedded systems development, machine learning, and environmental conservation.
+- 👀 I’m interested in electrical engineering, embedded systems development, and machine learning.
 - 🌱 I’m currently learning about AI and object detection.
-- 💞️ I’m looking to collaborate on projects related to hardware programming, machine learning, and environmental sustainability.
+- 💞️ I’m looking to collaborate on projects related to hardware programming, and machine learning.
 - 📫 How to reach me: 
   - Email: malikmammar17@gmail.com
   - LinkedIn: linkedin.com/in/ammarmalik-electrical-engineer
