@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @ammarmalik17
-- 📫 How to reach me: 
+- Hi, I’m @ammarmalik17
+- How to reach me: 
   - Email: malikmammar17@gmail.com
   - LinkedIn: https://www.linkedin.com/in/ammarmalik-electrical-engineer
 
