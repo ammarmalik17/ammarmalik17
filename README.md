@@ -80,28 +80,6 @@ const ammar = {
   <img src="https://github-profile-trophy.vercel.app/?username=ammarmalik17&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15" alt="Trophies" />
 </div>
 
-## 🚀 Featured Projects
-
-<div align="center">
-  <a href="https://github.com/ammarmalik17/project1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ammarmalik17&repo=project1&theme=tokyonight&hide_border=true" alt="Project 1" />
-  </a>
-  <a href="https://github.com/ammarmalik17/project2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ammarmalik17&repo=project2&theme=tokyonight&hide_border=true" alt="Project 2" />
-  </a>
-</div>
-
-## 🎨 Coding Activity
-
-<!--START_SECTION:waka-->
-```text
-JavaScript   8 hrs 42 mins   ████████████░░░░░░░   48.92%
-Python       4 hrs 23 mins   ██████░░░░░░░░░░░░░░   24.65%
-TypeScript   2 hrs 17 mins   ███░░░░░░░░░░░░░░░░░   12.86%
-CSS          1 hr 29 mins    ██░░░░░░░░░░░░░░░░░░   08.37%
-Other        55 mins         █░░░░░░░░░░░░░░░░░░░   05.20%
-```
-<!--END_SECTION:waka-->
 
 ## 🤝 Connect & Collaborate
 
@@ -119,20 +97,3 @@ Other        55 mins         █░░░░░░░░░░░░░░░░
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 </div>
 
-## 🎮 When I'm Not Coding
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem&bar_color=6366F1&bar_color_cover=false" alt="Spotify" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer&animation=fadeIn" width="100%" />
-  
-  ### 💡 "Code is like humor. When you have to explain it, it's bad." - Cory House
-  
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee" />
-</div>
-```
