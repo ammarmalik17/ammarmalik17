@@ -26,7 +26,7 @@ Open to remote AI engineering roles and research collaborations.
 
 ### Recent activity
 <!-- recent_activity starts -->
-- No public activity in the last 90 days.
+- No recent public activity to show.
 <!-- recent_activity ends -->
 
 ---
