@@ -32,3 +32,6 @@ Open to remote AI engineering roles and research collaborations.
 <!-- recent_activity ends -->
 
 ---
+
+<sub>This README updates itself with GitHub Actions, following <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison's guide</a>.</sub>
+<a href="https://github.com/ammarmalik17/ammarmalik17/actions"><img src="https://github.com/ammarmalik17/ammarmalik17/actions/workflows/build.yml/badge.svg" align="right" alt="Build README"></a>

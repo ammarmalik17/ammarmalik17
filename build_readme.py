@@ -131,15 +131,12 @@ def describe_event(event: dict) -> str | None:
         return f"- Pushed {count} {commits} to [{repo}]({repo_url}) - {date}"
 
     if kind == "PullRequestEvent":
-        action = payload.get("action")
         pull = payload.get("pull_request") or {}
+        if payload.get("action") != "closed" or not pull.get("merged"):
+            return None
         number = payload.get("number") or pull.get("number")
         url = pull.get("html_url") or repo_url
-        if action == "opened":
-            return f"- Opened [#{number}]({url}) in [{repo}]({repo_url}) - {date}"
-        if action == "closed" and pull.get("merged"):
-            return f"- Merged [#{number}]({url}) in [{repo}]({repo_url}) - {date}"
-        return None
+        return f"- Merged [#{number}]({url}) in [{repo}]({repo_url}) - {date}"
 
     if kind == "ReleaseEvent":
         release = payload.get("release") or {}
