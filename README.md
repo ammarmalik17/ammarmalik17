@@ -26,9 +26,7 @@ Open to remote AI engineering roles and research collaborations.
 
 ### Recent activity
 <!-- recent_activity starts -->
-- Opened [#1372](https://github.com/agarrharr/awesome-cli-apps) in [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) - Oct 11, 2026
-- Opened [#293](https://github.com/TheJambo/awesome-testing) in [TheJambo/awesome-testing](https://github.com/TheJambo/awesome-testing) - Oct 11, 2026
-- Opened [#601](https://github.com/dhamaniasad/awesome-postgres) in [dhamaniasad/awesome-postgres](https://github.com/dhamaniasad/awesome-postgres) - Oct 11, 2026
+- No public activity in the last 90 days.
 <!-- recent_activity ends -->
 
 ---
