@@ -24,11 +24,6 @@ Open to remote AI engineering roles and research collaborations.
 - [ml-inference-platform](https://github.com/ammarmalik17/ml-inference-platform) (Python, updated Jan 25, 2026)
 <!-- recent_projects ends -->
 
-### Recent activity
-<!-- recent_activity starts -->
-- No recent public activity to show.
-<!-- recent_activity ends -->
-
 ---
 
 <sub>This README updates itself with GitHub Actions, following <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison's guide</a>.</sub>

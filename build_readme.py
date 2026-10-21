@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
-"""Fill the self-updating sections of this profile README.
+"""Fill the self-updating section of this profile README.
 
-The README keeps two commented blocks that this script replaces:
+The README keeps one commented block that this script replaces:
 
     <!-- recent_projects starts -->
     ...
     <!-- recent_projects ends -->
-
-    <!-- recent_activity starts -->
-    ...
-    <!-- recent_activity ends -->
 
 It runs from GitHub Actions on a schedule and on every push.
 """
@@ -29,7 +25,6 @@ README = "README.md"
 API = "https://api.github.com"
 EXCLUDED_REPOS = {"ammarmalik17", "portfolio"}
 MAX_PROJECTS = 5
-MAX_ACTIVITY = 5
 DESCRIPTION_LIMIT = 120
 
 
@@ -113,66 +108,6 @@ def render_projects(repos: list[dict]) -> str:
     return "\n".join(lines) if lines else "- No public repositories found."
 
 
-def describe_event(event: dict) -> str | None:
-    kind = event.get("type")
-    repo = (event.get("repo") or {}).get("name")
-    if not kind or not repo:
-        return None
-
-    repo_url = f"https://github.com/{repo}"
-    date = format_date(event.get("created_at"))
-    payload = event.get("payload") or {}
-
-    if kind == "PushEvent":
-        count = payload.get("size") or 0
-        if not count:
-            return None
-        commits = "commit" if count == 1 else "commits"
-        return f"- Pushed {count} {commits} to [{repo}]({repo_url}) - {date}"
-
-    if kind == "PullRequestEvent":
-        pull = payload.get("pull_request") or {}
-        if payload.get("action") != "closed" or not pull.get("merged"):
-            return None
-        number = payload.get("number") or pull.get("number")
-        url = pull.get("html_url") or repo_url
-        return f"- Merged [#{number}]({url}) in [{repo}]({repo_url}) - {date}"
-
-    if kind == "ReleaseEvent":
-        release = payload.get("release") or {}
-        name = release.get("name") or release.get("tag_name")
-        if not name:
-            return None
-        url = release.get("html_url") or repo_url
-        return f"- Released [{name}]({url}) in [{repo}]({repo_url}) - {date}"
-
-    if kind == "CreateEvent" and payload.get("ref_type") == "tag":
-        tag = payload.get("ref")
-        if not tag:
-            return None
-        url = f"{repo_url}/releases/tag/{tag}"
-        return f"- Tagged [{tag}]({url}) in [{repo}]({repo_url}) - {date}"
-
-    return None
-
-
-def render_activity(events: list[dict]) -> str:
-    lines = []
-    seen = set()
-    for event in events:
-        line = describe_event(event)
-        if not line:
-            continue
-        key = (event.get("repo", {}).get("name"), event.get("type"))
-        if key in seen:
-            continue
-        seen.add(key)
-        lines.append(line)
-        if len(lines) == MAX_ACTIVITY:
-            break
-    return "\n".join(lines) if lines else "- No recent public activity to show."
-
-
 def replace_block(text: str, name: str, content: str) -> str:
     pattern = re.compile(
         rf"(<!-- {re.escape(name)} starts -->\n).*?(\n<!-- {re.escape(name)} ends -->)",
@@ -190,14 +125,6 @@ def main() -> int:
     repos = select_repos(fetch_repos())
 
     updated = replace_block(original, "recent_projects", render_projects(repos))
-
-    try:
-        # Public events only, so private activity cannot leak into the README.
-        events = api(f"/users/{USER}/events/public?per_page=100")
-    except urllib.error.URLError as error:
-        print(f"Skipping recent activity: {error}", file=sys.stderr)
-    else:
-        updated = replace_block(updated, "recent_activity", render_activity(events))
 
     if updated == original:
         print("README is already up to date")
