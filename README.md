@@ -17,12 +17,18 @@ Open to remote AI engineering roles and research collaborations.
 
 ### Recently updated
 <!-- recent_projects starts -->
-- This section updates automatically from public repositories.
+- [Jetson-Yolo-Tracking-TensorRT](https://github.com/ammarmalik17/Jetson-Yolo-Tracking-TensorRT) - Real-time YOLO detection, multi-object tracking, and interactive object locking with TensorRT - optimized for NVIDIA... (Python, 5 stars, updated Oct 06, 2026)
+- [omnifinder-ai](https://github.com/ammarmalik17/omnifinder-ai) - Agentic AI search engine with ReAct reasoning and multi-source RAG. Routes queries across Wikipedia, ArXiv & the web... (Python, updated Jun 13, 2026)
+- [streamlit-trigger](https://github.com/ammarmalik17/streamlit-trigger) (JavaScript, updated Mar 13, 2026)
+- [TrafficStream](https://github.com/ammarmalik17/TrafficStream) (Python, updated Feb 25, 2026)
+- [ml-inference-platform](https://github.com/ammarmalik17/ml-inference-platform) (Python, updated Jan 25, 2026)
 <!-- recent_projects ends -->
 
 ### Recent activity
 <!-- recent_activity starts -->
-- Recent public activity will appear here after the first workflow run.
+- Opened [#1372](https://github.com/agarrharr/awesome-cli-apps) in [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) - Oct 11, 2026
+- Opened [#293](https://github.com/TheJambo/awesome-testing) in [TheJambo/awesome-testing](https://github.com/TheJambo/awesome-testing) - Oct 11, 2026
+- Opened [#601](https://github.com/dhamaniasad/awesome-postgres) in [dhamaniasad/awesome-postgres](https://github.com/dhamaniasad/awesome-postgres) - Oct 11, 2026
 <!-- recent_activity ends -->
 
 ---
