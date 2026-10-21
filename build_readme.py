@@ -170,7 +170,7 @@ def render_activity(events: list[dict]) -> str:
         lines.append(line)
         if len(lines) == MAX_ACTIVITY:
             break
-    return "\n".join(lines) if lines else "- No public activity in the last 90 days."
+    return "\n".join(lines) if lines else "- No recent public activity to show."
 
 
 def replace_block(text: str, name: str, content: str) -> str:
@@ -193,7 +193,7 @@ def main() -> int:
 
     try:
         # Public events only, so private activity cannot leak into the README.
-        events = api(f"/users/{USER}/events/public?per_page=30")
+        events = api(f"/users/{USER}/events/public?per_page=100")
     except urllib.error.URLError as error:
         print(f"Skipping recent activity: {error}", file=sys.stderr)
     else:
