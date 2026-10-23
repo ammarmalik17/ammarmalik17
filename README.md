@@ -23,8 +23,3 @@ Open to remote AI engineering roles and research collaborations.
 - [TrafficStream](https://github.com/ammarmalik17/TrafficStream) (Python, updated Feb 25, 2026)
 - [ml-inference-platform](https://github.com/ammarmalik17/ml-inference-platform) (Python, updated Jan 25, 2026)
 <!-- recent_projects ends -->
-
----
-
-<sub>This README updates itself with GitHub Actions, following <a href="https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/">Simon Willison's guide</a>.</sub>
-<a href="https://github.com/ammarmalik17/ammarmalik17/actions"><img src="https://github.com/ammarmalik17/ammarmalik17/actions/workflows/build.yml/badge.svg" align="right" alt="Build README"></a>
