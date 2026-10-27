@@ -17,7 +17,7 @@ Open to remote AI engineering roles and research collaborations.
 
 ### Recently updated
 <!-- recent_projects starts -->
-- [px4-airsim-ros2-control](https://github.com/ammarmalik17/px4-airsim-ros2-control) (Python, updated Oct 23, 2026)
+- [px4-airsim-ros2-control](https://github.com/ammarmalik17/px4-airsim-ros2-control) - PX4 SITL + AirSim + ROS 2 Humble offboard control: 20 Hz keyboard teleop, an isolated AirSim camera pipeline, and the... (Python, updated Oct 23, 2026)
 - [Jetson-Yolo-Tracking-TensorRT](https://github.com/ammarmalik17/Jetson-Yolo-Tracking-TensorRT) - Real-time YOLO detection, multi-object tracking, and interactive object locking with TensorRT - optimized for NVIDIA... (Python, 5 stars, updated Oct 06, 2026)
 - [omnifinder-ai](https://github.com/ammarmalik17/omnifinder-ai) - Agentic AI search engine with ReAct reasoning and multi-source RAG. Routes queries across Wikipedia, ArXiv & the web... (Python, updated Jun 13, 2026)
 - [streamlit-trigger](https://github.com/ammarmalik17/streamlit-trigger) (JavaScript, updated Mar 13, 2026)
