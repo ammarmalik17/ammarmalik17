@@ -2,10 +2,6 @@
 
 **AI engineer building systems that reason, see, and move.**
 
-I build agentic search, real-time computer vision, and robotics systems. I like the part where a model has to work outside a notebook: on a Jetson, on a drone, or in front of a user.
-
-Open to remote AI engineering roles and research collaborations.
-
 [Portfolio](https://ammarmalik.com) · [Resume](https://ammarmalik.com/resume) · [LinkedIn](https://www.linkedin.com/in/malikmammar) · [Email](mailto:malikmammar17@gmail.com)
 
 ### Featured work
