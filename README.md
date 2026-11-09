@@ -1,8 +1,11 @@
+<div align="center">
+
 ### Hi, I'm Malik Mohammad Ammar
 
 **AI engineer building systems that reason, see, and move.**
 
 [Portfolio](https://ammarmalik.com) · [Resume](https://ammarmalik.com/resume) · [LinkedIn](https://www.linkedin.com/in/malikmammar) · [Email](mailto:malikmammar17@gmail.com)
+</div>
 
 ### Featured work
 
